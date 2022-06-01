@@ -116,7 +116,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "balance",
             "second_image": false
           }
         },
