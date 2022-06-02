@@ -1,0 +1,27 @@
+<div class="custom-text-section">
+    <h2> {{ section.settings.custom_text_title }} </h2>
+    <div>{{ section.settings.custom_text_body }}</div>
+    <hr>
+</div>
+
+
+{% schema %}
+{
+"name": "Gilliannnnnn Text Box",
+"settings": [
+{
+"id": "custom_text_title",
+"type": "text",
+"label": "Text box heading",
+"default": "Title"
+},
+{
+"id": "custom_text_body22",
+"type": "richtext",
+"label": "Add custom text below",
+"default": "<p>Add your text here</p>"
+}
+]
+}
+
+{% endschema %}
