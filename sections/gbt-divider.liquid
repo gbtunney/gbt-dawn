@@ -1,0 +1,32 @@
+<div class="custom-text-section {{ section.settings.custom_css }}">
+    <h2> {{ section.settings.custom_text_title }} </h2>
+    <hr>
+</div>
+
+
+{% schema %}
+
+    {
+        "name":
+        "UI Divider",
+            "settings":
+        [
+            {
+                "id": "custom_text_title",
+                "type": "text",
+                "label": "Text",
+                            "default":"hhello"
+            },
+            {
+                "id": "custom_css",
+                "type": "text",
+                "label": "Add custom css below",
+                "default": "bg-red-500"
+            }
+
+        ]
+    }
+
+{% endschema %}
+
+
