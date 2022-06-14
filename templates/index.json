@@ -207,6 +207,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1655171839a5abcbe9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1655171839d5054b3b-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Gillian",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1655171839d5054b3b-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1655171839d5054b3b-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1655171839d5054b3b-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655171839d5054b3b-0",
+        "1655171839d5054b3b-1",
+        "1655171839d5054b3b-2",
+        "1655171839d5054b3b-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -215,6 +276,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "1655171839a5abcbe9"
   ]
 }
